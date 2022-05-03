@@ -1,0 +1,6 @@
+os: linux
+dist: focal
+
+script:
+  - chmod +x test.sh
+  - ./test.sh
