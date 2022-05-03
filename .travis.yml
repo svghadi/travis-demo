@@ -3,6 +3,7 @@ dist: focal
 os: linux-ppc64le  #power vm env
 
 script:
+  - ifconfig
   - lscpu
   - chmod +x test.sh
   - ./test.sh
