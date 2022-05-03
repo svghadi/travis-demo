@@ -1,6 +1,6 @@
-os: linux
 dist: focal
-arch: ppc64le
+#arch: ppc64le   #power lxd env
+os: linux-ppc64le  #power vm env
 
 script:
   - lscpu
