@@ -2,7 +2,6 @@ dist: focal
 arch: ppc64le   #power lxd env
 
 script:
-  - ifconfig || ture
   - lscpu
   - chmod +x test.sh
   - ./test.sh
